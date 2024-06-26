@@ -1,11 +1,10 @@
-html{
-    height: 100%;
-}
+
 body{
     background-color: #f8f8f8;
-    height: 80%;
+    height: 800px
     /* margin-top: -10px; */
 }
+
 
 /* FORM  */
 #form-container{
@@ -81,8 +80,12 @@ body{
         width: auto;
     }
     .col-md-6.order-md-1{
-        padding-top:0px
+        padding-top:0px;
     }
+    .col-md-6,.col-md-6.order-md-1{
+        padding: 80px 10px;
+    }
+
 }
 
 
